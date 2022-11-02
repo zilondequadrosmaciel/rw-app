@@ -9,7 +9,7 @@ export const ListBags = () => {
   useEffect(() => {
     async function fetchData() {
       const response = await axios.get(
-        "https://rw-api-production.up.railway.app/user/all/",
+        "https://rw-api-production.up.railway.app/user/all",
         {
           config,
         }
